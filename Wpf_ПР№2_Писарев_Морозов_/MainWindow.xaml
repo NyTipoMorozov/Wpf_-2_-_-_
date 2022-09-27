@@ -1,0 +1,21 @@
+﻿<Window x:Class="Wpf_ПР_2_Писарев_Морозов_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_ПР_2_Писарев_Морозов_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Grid.Row="0" Content="Введите значение p" Margin="10,134,649,225"/>
+        <TextBox x:Name="P" Grid.Row="0" Margin="148,134,492,253"/>
+        <Label Grid.Row="0" Content="Введите значение a" Margin="10,21,644,359"/>
+        <TextBox x:Name="A" Margin="148,19,492,364"/>
+        <Label Content="Введите значение b" Margin="10,60,649,324"/>
+        <TextBox x:Name="B" Margin="148,60,492,329"/>
+        <Label Content="Введите значение c" Margin="10,95,649,290"/>
+        <TextBox x:Name="C" Margin="148,95,492,290"/>
+        <TextBox x:Name="Itog" Margin="323,21,256,181"/>
+        <Button x:Name="Schet" Content="Воплнить" Margin="78,194,492,181" Click="Schet_Click"/>
+    </Grid>
+</Window>
