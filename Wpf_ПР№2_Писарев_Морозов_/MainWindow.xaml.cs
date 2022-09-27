@@ -47,7 +47,7 @@ namespace Wpf_ПР_2_Писарев_Морозов_
             //Вычисляем арифметическое выражение 
             double z = ((p - a) * (p - b) * (p - c) / p);
             double r = Math.Sqrt(z);
-            Itog.Text += Environment.NewLine + "Результат r = " + r.ToString(); 
+            Itog.Text += Environment.NewLine + "Результат r = " + r.ToString();
             
         }
         
